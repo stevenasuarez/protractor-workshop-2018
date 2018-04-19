@@ -1,0 +1,28 @@
+{
+  "name": "workshop-protractor",
+  "version": "1.0.0",
+  "description": "This is a workshop about Protractor",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor protractor.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevenasuarez/protractor-workshop-2018.git"
+  },
+  "keywords": [
+    "ui-testing",
+    "dojo",
+    "practice",
+    "protactor"
+  ],
+  "author": "steven suarez ssuarezc@psl.com.co",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stevenasuarez/protractor-workshop-2018/issues"
+  },
+  "homepage": "https://github.com/stevenasuarez/protractor-workshop-2018#readme",
+  "dependencies": {
+    "protractor": "^5.3.1"
+  }
+}
