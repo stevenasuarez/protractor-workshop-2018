@@ -445,9 +445,11 @@ __pycache__/
 *.odx.cs
 *.xsd.cs
 
+## Typescript
+dist
+
 ### VisualStudio Patch ###
 # By default, sensitive information, such as encrypted password
 # should be stored in the .pubxml.user file.
-
 
 # End of https://www.gitignore.io/api/node,windows,webstorm,visualstudio,visualstudiocode
