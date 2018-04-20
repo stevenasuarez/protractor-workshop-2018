@@ -6,14 +6,14 @@ export const config: Config = {
 	specs: ['../test/Google.spec.js'],
 	noGlobals: true,
 	SELENIUM_PROMISE_MANAGER: false,
-	onPrepare: () => {
-		browser.ignoreSynchronization = true;
-		reporter();
-	},
 	capabilities: {
 		browserName: 'chrome',
 		chromeOptions: {
 			args: ['--headless', '--disable-gpu', '--window-size=800,600']
 		}
+	},
+	onPrepare: () => {
+		browser.ignoreSynchronization = true;
+		reporter();
 	}
 }
